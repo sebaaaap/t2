@@ -5,6 +5,8 @@
 #include <unistd.h>
 #include <time.h>
 
+
+//segundo comit ctm
 #define MAX_SERIES 60  // Capacidad máxima de series acumuladas
 #define NUM_PROFESORES 12
 #define NUM_SEMANAS 4 // Cambia este valor para simular 1 mes (4), 6 meses (26), o 1 año (52)
