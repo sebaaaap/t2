@@ -3,7 +3,7 @@
 #include <pthread.h>
 #include <string.h>
 #include <unistd.h>
-#include <time.h>
+
 
 
 //aqui se ajustan los profesores, semanas y numero de series
@@ -153,8 +153,8 @@ void mostrarEstadisticas(Profesor profesores[], Plataforma dasney, Plataforma be
 int main() {
     
     
-
-    Plataforma dasney = {"Dasney", {}, 0, PTHREAD_MUTEX_INITIALIZER}; //inicia los mutex de las plataformas
+    //inicia los mutex de las plataformas
+    Plataforma dasney = {"Dasney", {}, 0, PTHREAD_MUTEX_INITIALIZER}; 
     Plataforma betflix = {"Betflix", {}, 0, PTHREAD_MUTEX_INITIALIZER};
     
     Profesor profesores[NUM_PROFESORES]; //array de objetos profes
