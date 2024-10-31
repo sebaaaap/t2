@@ -6,7 +6,7 @@
 
 
 
-//aqui se ajustan los profesores, semanas y numero de series
+//aqui se ajustan los profesores, semanas y numero de serie
 #define NUM_PROFESORES 12
 #define NUM_SEMANAS 4 // 4 semanas(1mes), 26 semanas(6meses) y 52 semanas(1año)
 #define MAX_SERIES 60 // 60 series(1mes), 390 series(6meses) y 780 series(1año)
