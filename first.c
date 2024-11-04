@@ -5,8 +5,8 @@
 #include <unistd.h>
 
 #define NUM_PROFESORES 12
-#define NUM_SEMANAS 4
-#define MAX_SERIES 60
+#define NUM_SEMANAS 52 // 4 semanas(1mes), 26 semanas(6meses) y 52 semanas(1año)
+#define MAX_SERIES 780 // 60 series(1mes), 390 series(6meses) y 780 series(1año)
 
 typedef struct {
     char nombre[50];
